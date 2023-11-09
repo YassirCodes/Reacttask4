@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5; /* light gray background for the entire App */
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.styled-table {
+  margin: 0 auto; /* centers the table */
+  background-color: black;
+  color: white;
+  border-collapse: collapse;
+  width: 80%; /* occupies 80% of the container's width */
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd; /* light gray bottom border for each cell */
+}
+
+.styled-table tbody tr:hover {
+  background-color: #555; /* slightly lighter shade for hover effect */
+}
